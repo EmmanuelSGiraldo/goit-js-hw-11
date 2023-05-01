@@ -3,8 +3,6 @@ import '../SCSS/_common.scss';
 import '../SCSS/index.scss';
 import { services } from './axios';
 
-
-
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 import SimpleLightbox from 'simplelightbox';
@@ -43,7 +41,6 @@ const refs = {
   btnForm: document.querySelector('[type="submit"]'),
   galleryCards: document.querySelector('.gallery'),
   btnLoadMore: document.querySelector('.load-more'),
-
 };
 
 //Proxy
@@ -141,6 +138,3 @@ const layoutUtils = {
 };
 
 refs.form.addEventListener('submit', handleFormUtils.getImages);
-
-
-
