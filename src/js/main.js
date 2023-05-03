@@ -138,3 +138,4 @@ const layoutUtils = {
 };
 
 refs.form.addEventListener('submit', handleFormUtils.getImages);
+

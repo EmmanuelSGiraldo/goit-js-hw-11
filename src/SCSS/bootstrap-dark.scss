@@ -1,0 +1,33 @@
+body[data-bs-theme="dark"] {
+  background-color: #222;
+  color: #eee;
+  
+  .photo-card {
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    box-shadow: 0px 2px 0px 0px rgb(251, 249, 249);
+    overflow: hidden;
+  }
+
+.info {
+  color: rgb(254, 254, 254);
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+}
+
+body[data-bs-theme="light"] {
+  background-color: #fff;
+  color: #333;
+}
+
+#dl-icon.bi-sun-fill {
+  
+  color: #ff0;
+}
+
+#dl-icon.bi-moon-fill {
+  color: #2d2dd4;
+}
