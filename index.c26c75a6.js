@@ -1,0 +1,2 @@
+var temaOscuro=function(){document.querySelector("body").setAttribute("data-bs-theme","dark"),document.querySelector("#dl-icon").setAttribute("class","bi bi-sun-fill")},temaClaro=function(){document.querySelector("body").setAttribute("data-bs-theme","light"),document.querySelector("#dl-icon").setAttribute("class","bi bi-moon-fill")},cambiarTema=function(){"light"===document.querySelector("body").getAttribute("data-bs-theme")?temaOscuro():temaClaro()};
+//# sourceMappingURL=index.c26c75a6.js.map
